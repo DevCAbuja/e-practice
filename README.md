@@ -6,7 +6,7 @@
 
 - **Project Type:** Open-Source is the new Sauce
 
-- **Estimated Duration:** 3 MONTHS
+- **Estimated Duration:** 4 MONTHS
 
 - **Project Overview:** This project it to be built on [ALOC EXAM ENDPOINTS](https://github.com/Seunope/aloc-endpoints) API which is an API for 5,000 past questions api end-points for POST-UTME, UTME, WASSCE, NECO questions.
 
@@ -42,6 +42,13 @@
 * Dev: Heroku
 
 * Production:
+
+**RUNNING THE PROJECT:**
+
+* Clone or Fork the project
+* Run `yarn` or `npm install`
+* For dev mode, run `yarn run dev` or `npm run dev`
+* For production mode, first build the project by running `yarn run build` or `npm run build` then start the app by running `yarn start` or `npm start`
 
 **CONTRIBUTING RULES:**
 
