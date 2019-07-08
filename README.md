@@ -59,3 +59,4 @@ Merging to master branch would be done only by either Balanced or Amaz
 Master branch would be hosted on dev server.
 
 **COLLABORATORS**
+- [Balanced](https://github.com/Balanced02) Adepoju Daniel
