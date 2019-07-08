@@ -11,7 +11,7 @@ import Login from '../views/Login/LoginContainer'
 
 // Private route
 import { connect } from 'react-redux';
-import PrivateRoute from './PrivateRoute.js';
+import PrivateRoute from './PrivateRoute';
 
 // import redux
 

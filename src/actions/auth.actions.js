@@ -1,20 +1,20 @@
-import { LOGIN, LOGOUT } from "../constants";
-import { history } from "../App";
+import { LOGIN, LOGOUT } from '../constants';
+import { history } from '../App';
 
-export const sendLoginRequest = (data, redirectLocation) => async dispatch => {
+export const sendLoginRequest = (data, redirectLocation = '/') => async (dispatch) => {
   dispatch({
     type: LOGIN,
     payload: {
       user: data,
-      token: data.token
-    }
+      token: data.token,
+    },
   });
-  redirectLocation ? history.push(redirectLocation) : history.push("/");
+  history.push(redirectLocation);
 };
 
-export const sendLogoutRequest = () => dispatch => {
+export const sendLogoutRequest = () => (dispatch) => {
   dispatch({
-    type: LOGOUT
+    type: LOGOUT,
   });
-  history.push("/login");
+  history.push('/login');
 };
