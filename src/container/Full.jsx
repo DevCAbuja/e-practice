@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  Route, Switch, Redirect, withRouter,
+  Route, Switch, Redirect
 } from 'react-router-dom';
 
 import { bool } from 'prop-types'
@@ -42,4 +42,4 @@ const mapStateToProps = state => {
   auth: state.auth.authenticated,
 }}
 
-export default withRouter(connect(mapStateToProps)(Full));
+export default connect(mapStateToProps)(Full);
