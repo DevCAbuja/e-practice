@@ -1,5 +1,11 @@
 @import "variables.scss";
+@import "landing.scss";
+@import "fonts.scss";
 
 p {
   color: $primaryColor
 }
+h1 {
+    color: $primaryColor
+}
+
