@@ -6,6 +6,32 @@
     align-items: center;
     background: #E5E5E5;
     font-family: "Poppins", sans-serif,  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    .carousel {
+      background-color: white;      
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      align-content: center;
+      padding: 40px;
+      border-radius: 50%;
+      left: 90px;
+      z-index: 5;
+    }
+
+    .carousel div img {
+      width: 250px;
+      height: 220px;
+      border-radius: 50%;
+
+    }
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+    }    
+    .carousel-indicators {
+      bottom: -80px;      
+  }  
     .box {
       padding: 50px;
       background: #ffffff;
