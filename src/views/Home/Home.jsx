@@ -48,7 +48,6 @@ class Home extends Component {
           </div>
         </nav>
         <div className="content-container">
-          
           <div>
             <h1 className="out">
               E
@@ -60,7 +59,7 @@ class Home extends Component {
               {' '}
               <br />
               {' '}
-              you will never cease to go
+  you will never cease to go
             </p>
             <button type="button" className=" button btn btn-info">
               Start Studying
@@ -68,7 +67,7 @@ class Home extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
