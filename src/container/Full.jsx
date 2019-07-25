@@ -8,6 +8,7 @@ import { bool } from 'prop-types'
 // Home and Auth Pages
 import Home from '../views/Home/HomeContainer'
 import Login from '../views/Login/LoginContainer'
+import Dashboard from '../views/Dashboard/DashboardContainer'
 
 // Private route
 import { connect } from 'react-redux';
@@ -24,6 +25,7 @@ class Full extends Component {
     const { auth } = this.props;
     return (
       <Switch>
+        <Route path="/dashboard" component={Dashboard} />
         <Route path="/login" component={Login} />
         <PrivateRoute path="/app" component={privateRoute} authState={auth} />
         <Route exact path="/" component={Home} />

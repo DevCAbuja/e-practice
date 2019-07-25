@@ -1,0 +1,156 @@
+.home-page {
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 10px;
+    nav {
+      margin: 0px 30px;
+      padding: 10px;
+      border-bottom: 3px solid #000000;
+      font-family: "Poppins";
+      font-weight: bold;
+      .navbar-brand {
+        color: $primary;
+        font-style: italic;
+        span {
+          color: $danger;
+        }   
+      }
+  
+      .get-started {
+        display: none;
+        background: $primary;
+        border-radius: 30px;
+        padding: 10px;
+        color: $white;
+        margin-left: 20px;
+      }
+      ul {
+        li {
+          text-transform: uppercase;
+        }
+      }
+    }
+    .dashboard {
+        background-color: #E9EEFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        border-radius: 10px;
+        position: absolute;
+        width: 254px;
+        height: 586px;
+        left: 50px;
+        top: 120px;
+    p {
+        position: absolute;
+        width: 189px;
+        height: 200px;
+        left: 30px;
+        top: 30px;
+        font-family: 'Montserrat', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Source Sans Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 50px;
+
+        color: #3B3D41;
+    }
+      }
+    section {
+        .dark {
+            position: absolute;
+            width: 868px;
+            height: 59px;
+            left: 330px;
+            top: 125px;
+
+            background: #1A348D;
+        }
+        h2 {
+            position: absolute;
+            width: 500px;
+            height: 5px;
+            left: 50px;
+            top: 20px;
+            font-family: 'Montserrat', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Source Sans Pro;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 10px;
+
+            color: #FFFFFF;
+        }
+
+        .table {
+            position: absolute;
+            width: 869px;
+            height: 430px;
+            left: 330px;
+            top: 186px;
+            background: #FFFFFF;
+            border: 1px solid #E9EEFF;
+            box-sizing: border-box;
+            table, th, td {
+              border: 1px solid #DADADA;
+              text-align: center
+            }
+            table {
+                width: 100%;
+                th {
+                    background: rgba(233, 238, 255, 0.5);
+                     td {
+                    padding: 15px;
+                    background: #FFFFFF;
+                    border: 1px solid #DADADA;
+                    box-sizing: border-box;
+                     }
+                 }
+            }
+        }
+    }
+    .content-container {
+      font-size: 1.5rem;
+      background: url("../assets/img/background.jpeg");
+      background-position: center center;
+      background-size: cover;
+      min-height: calc(100vh - 63px);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+  
+      span {
+        color: $danger;
+      }
+      p {
+        color: $black;
+      }
+      button {
+        background: $primary;
+      }
+    }
+  }
+  
+  
+  // Styling for desktop screens and tablets (landscape orientation)
+  
+  @media (min-width: 768px) {
+    .home-page {
+      nav {
+        .get-started {
+          display: inline-block;
+        }
+      }
+      .content-container {
+          button {
+            width: 150px;
+            right: 0px;
+            margin-top: 50px;
+            margin-right: 350px;
+            border-radius: 30px;
+            padding: 20px;
+          }
+      }
+    }
+  }
+  

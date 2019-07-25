@@ -38,6 +38,10 @@
     padding: 20px;
     display: flex;
     align-items: center;
+
+    span {
+      color: $danger;
+    }
     p {
       color: $black;
     }
