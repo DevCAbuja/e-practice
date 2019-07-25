@@ -1,0 +1,74 @@
+.home-page {
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 10px;
+  nav {
+    margin: 0px 30px;
+    padding: 10px;
+    border-bottom: 3px solid #dadada;
+    font-family: "Poppins";
+    font-weight: bold;
+    .navbar-brand {
+      color: $primary;
+      font-style: italic;
+      span {
+        color: $danger;
+      }
+    }
+    .get-started {
+      display: none;
+      background: $primary;
+      border-radius: 30px;
+      padding: 10px;
+      color: $white;
+      margin-left: 20px;
+    }
+    ul {
+      li {
+        text-transform: uppercase;
+      }
+    }
+  }
+  .content-container {
+    font-size: 1.5rem;
+    background: url("../assets/img/background.jpeg");
+    background-position: center center;
+    background-size: cover;
+    min-height: calc(100vh - 63px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    span {
+      color: $danger;
+    }
+    p {
+      color: $black;
+    }
+    button {
+      background: $primary;
+    }
+  }
+}
+
+// Styling for desktop screens and tablets (landscape orientation)
+
+@media (min-width: 768px) {
+  .home-page {
+    nav {
+      .get-started {
+        display: inline-block;
+      }
+    }
+    .content-container {
+        button {
+          width: 150px;
+          right: 0px;
+          margin-top: 50px;
+          margin-right: 350px;
+          border-radius: 30px;
+          padding: 20px;
+        }
+    }
+  }
+}
