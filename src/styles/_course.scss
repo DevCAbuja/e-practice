@@ -1,0 +1,60 @@
+.course {
+    display: block;
+    .dark {
+      background: $primary;
+      padding: 5px;
+      margin-bottom: 0px;
+      margin-top: 70px;
+      color: $white;
+      
+      span {
+        color: $danger;
+      }
+    }
+    .table {
+      background: $white;
+      border: 1px solid #e9eeff;
+      box-sizing: border-box;
+      table,
+      th,
+      td {
+        border: 1px solid #dadada;
+        text-align: center;
+      }
+      table {
+        width: 100%;
+        th {
+          background: rgba(233, 238, 255, 0.5);
+          td {
+            padding: 15px;
+            background: $white;
+            border: 1px solid #dadada;
+            box-sizing: border-box;
+          }
+        }
+      }
+    }
+    .button-container {
+      display: flex;
+      margin-top: 50px;
+      justify-content: space-around;
+      button {
+        background: $primary;
+        width: 150px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .course{
+      .button-container {
+        display: block;
+        text-align: center;
+        button {
+           margin: 10px;
+        }
+      }
+    }
+  }

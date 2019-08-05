@@ -1,0 +1,36 @@
+.exam-history {
+  overflow: scroll;
+  display: block;
+  .dark {
+    background: $primary;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: $white;
+  }
+  .table {
+    background: $white;
+    border: 1px solid #e9eeff;
+    box-sizing: border-box;
+    table,
+    th,
+    td {
+      border: 1px solid #dadada;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      th {
+        background: rgba(233, 238, 255, 0.5);
+        td {
+          padding: 15px;
+          background: $white;
+          border: 1px solid #dadada;
+          box-sizing: border-box;
+        }
+      }
+      i {
+        cursor: pointer;
+      }
+    }
+  }
+}
