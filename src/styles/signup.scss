@@ -1,0 +1,135 @@
+.signup {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+    font-family: "Poppins", sans-serif,  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    .carousel {
+      background-color: white;      
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      align-content: center;
+      padding: 40px;
+      border-radius: 50%;
+      left: 90px;
+      z-index: 5;
+    }
+
+    .carousel div img {
+      width: 250px;
+      height: 220px;
+      border-radius: 50%;
+
+    }
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+    }    
+    .carousel-indicators {
+      bottom: -80px;      
+  }  
+    .box {
+      padding: 50px;
+      background: #ffffff;
+      box-shadow: 0px 116.543px 327.368px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      min-width: 80%;
+    }
+  
+    .column1 {
+      width: 100%;
+      background-color: transparent;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url("../asset/imgs/transparent.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // z-index: 3;
+    }
+  
+    .column2 {
+      flex: 1;
+    }
+  
+    h1 {
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .signup-form {
+      text-align: center;
+      .icon {
+        margin: 20px;
+      }
+      .input-group {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background: #e8f0fe;
+        opacity: 0.99;
+        border: 2px solid rgb(91, 116, 227);
+        box-sizing: border-box;
+        box-shadow: 0px 13.524px 27.048px rgba(0, 0, 0, 0.15);
+        border-radius: 56.3917px;
+        margin: 10px 0px 10px 0px;
+        align-content: center;
+        padding: 20px;
+        .input {
+          flex: 1;
+          padding-left: 10px;
+          border: none;
+          background-color: transparent !important;
+        }
+        input:focus,
+        textarea:focus,
+        select:focus {
+          outline: none;
+          background-color: transparent !important;
+        }
+        img {
+          height: 30px;
+        }
+      }
+    }
+  
+    .button {
+      width: 100%;
+      background-color: rgba(83, 66, 235, 0.97);
+      color: white;
+      opacity: 0.99;
+      backdrop-filter: blur(210.981px);
+      border: 3.381px solid rgb(66, 88, 211);
+      box-sizing: border-box;
+      border-radius: 56.3917px;
+      margin: 10px 0px 10px 0px;
+      align-content: center;
+  
+      padding: 20px;
+    }
+  
+    .pass {
+      color: black;
+    }
+  
+    .regain {
+      color: rgb(65, 44, 255);
+    }
+  
+    .p1 {
+      float: inline-end;
+      color: black;
+    }
+  
+    .p2 {
+      float: inline-end;
+      color: black;
+    }
+  }
