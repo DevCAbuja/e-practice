@@ -2,33 +2,6 @@
   overflow: hidden;
   min-height: 100vh;
   padding: 10px;
-  nav {
-    margin: 0px 30px;
-    padding: 10px;
-    border-bottom: 3px solid #dadada;
-    font-family: "Poppins";
-    font-weight: bold;
-    .navbar-brand {
-      color: $primary;
-      font-style: italic;
-      span {
-        color: $danger;
-      }
-    }
-    .get-started {
-      display: none;
-      background: $primary;
-      border-radius: 30px;
-      padding: 10px;
-      color: $white;
-      margin-left: 20px;
-    }
-    ul {
-      li {
-        text-transform: uppercase;
-      }
-    }
-  }
   .content-container {
     font-size: 1.5rem;
     background: url("../assets/img/background.jpeg");
@@ -55,11 +28,6 @@
 
 @media (min-width: 768px) {
   .home-page {
-    nav {
-      .get-started {
-        display: inline-block;
-      }
-    }
     .content-container {
         button {
           width: 150px;

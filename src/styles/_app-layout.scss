@@ -1,0 +1,22 @@
+.app-layout {
+  .layout {
+    .row {
+      margin: 0;
+      .content {
+        flex: 1;
+        padding: 10px;
+        height: calc(100vh - 20px);
+        overflow: scroll;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .app-layout > :first-child {
+    display: none
+  }
+  .app-layout .content {
+    margin-top: 40px;
+  }
+}

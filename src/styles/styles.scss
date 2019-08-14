@@ -1,10 +1,29 @@
+// utils
 @import "variables.scss";
-@import "landing.scss";
 @import "fonts.scss";
 
+// layouts
+@import "nav.scss";
+@import "sidebar.scss";
+@import "app-layout.scss";
+
+// pages
+@import "landing.scss";
+@import "exam-history.scss";
+@import "course.scss";
+
 p {
-  color: $primary
+  color: $primary;
 }
+
 h1 {
-    color: $primary
+  color: $primary;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }

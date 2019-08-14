@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import "./fontello/css/fontello.css"
 
 import { PersistGate } from "redux-persist/integration/react";
 
